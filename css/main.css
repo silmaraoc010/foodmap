@@ -1,1 +1,104 @@
-/*Add your CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*body{
+
+   background-repeat: no-repeat;
+}*/
+.screen-splash,
+.screen-main {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:white;
+}
+.screen-splash {
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.screen-main{
+  display: none;
+}
+
+.text-foodmap{
+  color: #FF6347;
+}
+
+#map {
+ height: 150px; 
+ width: 100%; 
+ background-color: #FF6347 ;
+}
+
+.input-group-text{
+  background-color: #CE823E;
+  border:1px solid #CE823E;
+}
+
+.item-foodmap{
+  width: 20%;
+  list-style: none;
+}
+
+
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.input{
+  background-color:#ffc826;
+  border:solid 2px #FF6347;
+  border-radius:10px;
+  width:80%;
+  height:32px;
+  text-align: center;
+  
+
+}
+.search{
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+}
+
+
+  .modal-body{
+    align-items: center;
+}
+.result-rest{
+
+  display: grid;
+  grid-template-columns: auto  auto;
+  justify-content: space-around;
+  margin-top: 60px;
+ 
+}
+
+.item {
+
+  width: 50%;
+  margin-bottom: 2%;
+  align-items:center;  
+}
+
+.item img {
+  height: 150px;
+  width: 150%;
+  border-radius: 100px;
+  padding: 10px;
+
+
+}
+h5{
+  font-size: 15px;
+  text-align: center;
+  color: #FF6347;
+}
